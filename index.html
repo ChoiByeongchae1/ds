@@ -3,16 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio | Creative Developer</title>
+  <title>Portfolio | Android Developer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="header">
     <div class="container header-inner">
-      <a href="#" class="logo">Portfolio</a>
+      <a href="#" class="logo"><span class="logo-icon">◆</span> Android Dev</a>
       <button class="nav-toggle" aria-label="메뉴 열기">
         <span></span>
         <span></span>
@@ -32,9 +32,9 @@
     <section id="hero" class="hero">
       <div class="hero-bg"></div>
       <div class="container hero-content">
-        <h1 class="hero-title">Creative Developer</h1>
-        <p class="hero-subtitle">디자인과 코드로 아이디어를 현실로 만듭니다.</p>
-        <a href="#projects" class="btn btn-primary">프로젝트 보기</a>
+        <h1 class="hero-title">Android Developer</h1>
+        <p class="hero-subtitle">Kotlin & Jetpack으로 더 나은 앱 경험을 만듭니다.</p>
+        <a href="#projects" class="btn btn-primary">앱 프로젝트 보기</a>
       </div>
       <div class="hero-scroll">
         <span>Scroll</span>
@@ -44,20 +44,20 @@
 
     <section id="projects" class="projects">
       <div class="container">
-        <h2 class="section-title">Projects</h2>
-        <p class="section-desc">최근 작업한 프로젝트들을 소개합니다.</p>
+        <h2 class="section-title">Android Projects</h2>
+        <p class="section-desc">개발한 Android 앱 프로젝트입니다.</p>
         <div class="project-grid">
           <article class="project-card">
             <div class="card-image">
               <div class="card-placeholder card-1"></div>
             </div>
             <div class="card-body">
-              <h3>E-Commerce Platform</h3>
-              <p>반응형 쇼핑몰 웹앱. 결제 연동, 장바구니, 관리자 대시보드 구현.</p>
+              <h3>할 일 메모 앱</h3>
+              <p>Material Design 3 적용. Room DB 로컬 저장, 알림, 다크 모드 지원.</p>
               <div class="card-tags">
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>JavaScript</span>
+                <span>Kotlin</span>
+                <span>Jetpack Compose</span>
+                <span>Room</span>
               </div>
             </div>
           </article>
@@ -66,11 +66,12 @@
               <div class="card-placeholder card-2"></div>
             </div>
             <div class="card-body">
-              <h3>Dashboard UI Kit</h3>
-              <p>데이터 시각화와 차트가 포함된 모던 대시보드 컴포넌트 라이브러리.</p>
+              <h3>날씨 앱</h3>
+              <p>OpenWeather API 연동. 현재 위치 기반 날씨, 위젯, 알림. MVVM 구조.</p>
               <div class="card-tags">
-                <span>React</span>
-                <span>Chart.js</span>
+                <span>Kotlin</span>
+                <span>Retrofit</span>
+                <span>WorkManager</span>
               </div>
             </div>
           </article>
@@ -79,12 +80,12 @@
               <div class="card-placeholder card-3"></div>
             </div>
             <div class="card-body">
-              <h3>Landing Page</h3>
-              <p>스타트업용 랜딩 페이지. 애니메이션과 폼 연동, SEO 최적화.</p>
+              <h3>미디어 플레이어</h3>
+              <p>ExoPlayer 기반 오디오/비디오 재생. 재생목록, 백그라운드 재생, 미디어 컨트롤.</p>
               <div class="card-tags">
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>GSAP</span>
+                <span>Kotlin</span>
+                <span>ExoPlayer</span>
+                <span>Media3</span>
               </div>
             </div>
           </article>
@@ -95,7 +96,7 @@
     <section id="contact" class="contact">
       <div class="container">
         <h2 class="section-title">Contact</h2>
-        <p class="section-desc">프로젝트 문의나 협업 제안은 아래 폼으로 보내주세요.</p>
+        <p class="section-desc">앱 개발 문의·협업 제안은 아래 폼으로 보내주세요.</p>
         <form class="contact-form" id="contactForm">
           <div class="form-group">
             <label for="name">이름</label>
@@ -117,7 +118,7 @@
 
   <footer class="footer">
     <div class="container">
-      <p>&copy; 2025 Portfolio. All rights reserved.</p>
+      <p>&copy; 2025 Android Developer Portfolio.</p>
     </div>
   </footer>
 

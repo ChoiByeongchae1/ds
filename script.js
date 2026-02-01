@@ -29,9 +29,9 @@
   if (header) {
     function onScroll() {
       if (window.scrollY > 50) {
-        header.style.background = 'rgba(15, 15, 18, 0.95)';
+        header.style.background = 'rgba(13, 17, 23, 0.98)';
       } else {
-        header.style.background = 'rgba(15, 15, 18, 0.85)';
+        header.style.background = 'rgba(13, 17, 23, 0.9)';
       }
     }
     window.addEventListener('scroll', onScroll, { passive: true });
