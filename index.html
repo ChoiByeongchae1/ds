@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Creative Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a href="#" class="logo">Portfolio</a>
+      <button class="nav-toggle" aria-label="메뉴 열기">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="hero-bg"></div>
+      <div class="container hero-content">
+        <h1 class="hero-title">Creative Developer</h1>
+        <p class="hero-subtitle">디자인과 코드로 아이디어를 현실로 만듭니다.</p>
+        <a href="#projects" class="btn btn-primary">프로젝트 보기</a>
+      </div>
+      <div class="hero-scroll">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <p class="section-desc">최근 작업한 프로젝트들을 소개합니다.</p>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="card-image">
+              <div class="card-placeholder card-1"></div>
+            </div>
+            <div class="card-body">
+              <h3>E-Commerce Platform</h3>
+              <p>반응형 쇼핑몰 웹앱. 결제 연동, 장바구니, 관리자 대시보드 구현.</p>
+              <div class="card-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="card-image">
+              <div class="card-placeholder card-2"></div>
+            </div>
+            <div class="card-body">
+              <h3>Dashboard UI Kit</h3>
+              <p>데이터 시각화와 차트가 포함된 모던 대시보드 컴포넌트 라이브러리.</p>
+              <div class="card-tags">
+                <span>React</span>
+                <span>Chart.js</span>
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="card-image">
+              <div class="card-placeholder card-3"></div>
+            </div>
+            <div class="card-body">
+              <h3>Landing Page</h3>
+              <p>스타트업용 랜딩 페이지. 애니메이션과 폼 연동, SEO 최적화.</p>
+              <div class="card-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>GSAP</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <p class="section-desc">프로젝트 문의나 협업 제안은 아래 폼으로 보내주세요.</p>
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="name">이름</label>
+            <input type="text" id="name" name="name" required placeholder="홍길동">
+          </div>
+          <div class="form-group">
+            <label for="email">이메일</label>
+            <input type="email" id="email" name="email" required placeholder="hello@example.com">
+          </div>
+          <div class="form-group">
+            <label for="message">메시지</label>
+            <textarea id="message" name="message" rows="5" required placeholder="메시지를 입력해 주세요."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">보내기</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Portfolio. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
